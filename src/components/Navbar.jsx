@@ -1,7 +1,7 @@
 export default function Navbar () {
     return (
-        <div>
-            hi
+        <div className="fixed bg-test">
+            Navbar
         </div>
     );
 }
