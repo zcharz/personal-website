@@ -1,7 +1,7 @@
 export default function Contact () {
     return (
-        <div>
-            contact
+        <div className="container grid place-items-center">
+            <span>contact</span>
         </div>
     );
 }

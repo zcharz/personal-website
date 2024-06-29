@@ -1,7 +1,7 @@
 export default function Projects () {
     return (
-        <div className="bg-project">
-            project
+        <div className="container grid place-items-center">
+            <span>projects</span>
         </div>
     );
 }

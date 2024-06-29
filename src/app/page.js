@@ -4,7 +4,6 @@ import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Music from "@/components/Music";
 import Contact from "@/components/Contact";
-import Introduction from "@/components/Introduction";
 
 
 export const metadata = {
@@ -15,11 +14,10 @@ export default function Home() {
   return (
     <main>
       <Navbar/>
-      <Introduction/>
       <About/>
       <Projects/>
       <Experience/>
-      <Music/>
+      {/* <Music/> */}
       <Contact/>
     </main>
   );

@@ -1,21 +1,20 @@
-import Position from "./Position";
+import Position from "./sub-components/Position";
+import { SocialLinksIntro } from "./sub-components/ButtonLinks";
 
 export default function About () {
     return (
-        <div className="place-content-center">
-            <div className='text-center'>
-
-                <h1 className=''>
-                    <span className=''>Charlie Zhao</span>
+        <div className='container grid place-items-center'>
+            <div className="flex flex-col">
+                <h1 className='mt-1 text-5xl'>
+                    charlie zhao
                 </h1>
-
-                {/* <Position/> needs custom tailwind classes
-                how to do */}
-
+            
+                <h3 className='pt-5 text-2xl'>
+                software engineer | musician
+                </h3>
+                {/* <Position/> */}
+                <SocialLinksIntro/>
             </div>
-
-
         </div>
-        
     );
 }

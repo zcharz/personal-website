@@ -12,8 +12,6 @@ module.exports = {
   theme: {
     extends: {
       colors: {
-        project: "#ccfbf1", //teal-100
-        test: "#121063",
       },
     }
     
