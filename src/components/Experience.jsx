@@ -1,6 +1,6 @@
 export default function Experience () {
     return (
-        <div className="container grid place-items-center">
+        <div className="flex justify-center">
             <span>exp</span>
         </div>
     );
