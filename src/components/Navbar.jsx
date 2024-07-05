@@ -1,4 +1,4 @@
-const sections = ["charz", "projects", "experience", "contact"]
+const sections = ["charz", "projects", "experience", "music", "contact"]
 
 
 export default function Navbar () {
