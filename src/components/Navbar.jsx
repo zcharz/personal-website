@@ -1,13 +1,11 @@
 export default function Navbar () {
     return (
-        <div className="fixed pl-10 pt-10">
-            <div className="flex flex-col font-bold space-y-2 text-xl">
-                <button key="charz" className="text-left hover:text-rose-400 duration-150">charz</button>
-                <button key="experience" className="text-left hover:text-rose-400 duration-150">experience</button>
-                <button key="projects" className="text-left hover:text-rose-400 duration-150">projects</button>
-                <button key="music" className="text-left hover:text-rose-400 duration-150">music</button>
-                <button key="contact" className="text-left hover:text-rose-400 duration-150">contact</button>
-            </div>
+        <div className="fixed pl-10 pt-10 flex flex-col font-bold space-y-2 text-xl text-slate-800">
+            <button key="charz" className="text-left hover:text-slate-100 duration-200">charz</button>
+            <button key="experience" className="text-left hover:text-slate-100 duration-200">experience</button>
+            <button key="projects" className="text-left hover:text-slate-100 duration-200">projects</button>
+            <button key="music" className="text-left hover:text-slate-100 duration-200">music</button>
+            <button key="contact" className="text-left hover:text-slate-100 duration-200">contact</button>
         </div>
     );
 }

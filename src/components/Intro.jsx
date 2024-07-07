@@ -11,26 +11,26 @@ import Image from 'next/image'
 export default function Intro () {
     return (
         <div className='flex justify-center items-center animated_background'>
-            <div className='flex flex-row space-x-10'> 
+            <div className='flex flex-row space-x-10 text-slate-800'> 
 
                 <div className=''>
                     <Image
                         src = {portrait} alt = 'pfp'
-                         className='rounded-full border-[1px] border-slate-700 pointer-events-none w-96'
+                         className='rounded-full pointer-events-none w-96'
                     />
                 </div>
 
-                <div className='h-96 bg-slate-700 w-2'></div>
+                <div className='h-96 bg-slate-800 w-2'></div>
                 
                 
                 <div className='flex flex-col justify-center'>
-                    <h3 className='text-6xl font-semibold'>
+                    <dv className='text-6xl font-semibold'>
                         charlie zhao
-                    </h3>
+                    </dv>
 
-                    <h3 className='text-2xl py-3'>
+                    <div className='text-2xl py-3'>
                         software engineer | student | musician
-                    </h3>
+                    </div>
                     {/* <Position/> */}
                     
                     <ButtonLinks/>
@@ -40,5 +40,3 @@ export default function Intro () {
         </div>
     );
 }
-
-
