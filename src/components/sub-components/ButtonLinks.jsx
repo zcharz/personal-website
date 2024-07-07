@@ -9,19 +9,19 @@ export default function ButtonLinks() {
 	return (
 		<div className='flex justify-start space-x-2'>
 			<Link href='https://github.com/zcharz' target="_blank">
-				<FaGithub size={25} className='text-slate-700 d hover:text-slate-100 duration-200'/>
+				<FaGithub size={25} className='text-slate-700 hover:text-slate-100 duration-150'/>
 			</Link>
 
 			<Link href='https://www.linkedin.com/in/zhao-charlie/' target="_blank">
-				<FaLinkedin size={25} className='text-slate-700 d hover:text-slate-100 duration-200'/>
+				<FaLinkedin size={25} className='text-slate-700 hover:text-slate-100 duration-150'/>
 			</Link>
 
 			<Link href='https://www.youtube.com/@czmusic_' target="_blank">
-				<MdLibraryMusic size={25} className='text-slate-700 d hover:text-slate-100 duration-200'/>
+				<MdLibraryMusic size={25} className='text-slate-700 hover:text-slate-100 duration-150'/>
 			</Link>
 
 			<Link href='mailto:hellozhaocharlie@gmail.com' target="_blank">
-				<IoDocumentText size={25} className='text-slate-700 d hover:text-slate-100 duration-200'/>
+				<IoDocumentText size={25} className='text-slate-700 hover:text-slate-100 duration-150'/>
 			</Link>
 		</div>
 	)

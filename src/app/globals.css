@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.animated_background {
+    min-height: 100vh;
+    color: #333;
+    background: #ddd;
+    background-size: 500%;
+    background-image: linear-gradient(135deg, #99f6e4, #c7d2fe, #fbcfe8);
+    animation: bg-animation 25s infinite;
+}
+
+@keyframes bg-animation {
+0% {background-position: left}
+50% {background-position: right}
+100% {background-position: left}
+}
