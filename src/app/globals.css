@@ -7,9 +7,9 @@
     min-height: 100vh;
     color: #333;
     background: #ddd;
-    background-size: 500%;
-    background-image: linear-gradient(135deg, #99f6e4, #c7d2fe, #fbcfe8);
-    animation: bg-animation 25s infinite;
+    background-size: 700%;
+    background-image: linear-gradient(135deg, #a7f3d0, #bae6fd, #c7d2fe, #ddd6fe, #c7d2fe, #bae6fd, #a7f3d0);
+    animation: bg-animation 20s infinite;
 }
 
 @keyframes bg-animation {
