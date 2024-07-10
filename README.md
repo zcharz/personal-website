@@ -2,6 +2,8 @@
 
 This is a personal portfolio website made by Charlie Zhao completely from scratch, utilizing [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/). 
 
+Check out the website at [charz.dev](charz.dev)!
+
 ## Getting Started
 
 Installing dependencies: 
