@@ -1,6 +1,7 @@
 export default function Experience () {
     return (
-        <div className='flex flex-row justify-center py-11 bg-slate-100 space-x-10'>
+        <div id='experience' 
+        className='flex flex-row justify-center bg-slate-100 space-x-10 min-h-screen'>
             <div className='flex flex-col'>
                 <div>experience</div>
 

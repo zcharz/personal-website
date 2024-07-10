@@ -2,6 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdLibraryMusic } from "react-icons/md";
 import { IoDocumentText } from "react-icons/io5";
+import { RiMailFill } from "react-icons/ri";
 
 import Link from 'next/link'
 
@@ -20,8 +21,12 @@ export default function ButtonLinks() {
 				<MdLibraryMusic size={30} className='text-slate-800 hover:text-slate-100 duration-200'/>
 			</Link>
 
-			<Link href='mailto:hellozhaocharlie@gmail.com' target="_blank">
+			<Link href='' target="_blank">
 				<IoDocumentText size={30} className='text-slate-800 hover:text-slate-100 duration-200'/>
+			</Link>
+
+			<Link href='mailto:hellozhaocharlie@gmail.com' target="_blank">
+				<RiMailFill size={30} className='text-slate-800 hover:text-slate-100 duration-200'/>
 			</Link>
 		</div>
 	)

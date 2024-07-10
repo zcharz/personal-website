@@ -1,8 +1,7 @@
 import Position from './sub-components/Position';
 import ButtonLinks from './sub-components/ButtonLinks';
 
-// import portrait from '../assets/pfp.jpg'
-// import portrait from '../assets/portrait.jpg'
+// import amogus from '../assets/amogus.jpg'
 import portrait from '../assets/pfp-cropped.jpg'
 import Image from 'next/image'
 
@@ -10,7 +9,8 @@ import Image from 'next/image'
 
 export default function Intro () {
     return (
-        <div className='flex justify-center items-center animated_background'>
+        <div id='charz' 
+        className='flex justify-center items-center animated_background'>
             <div className='flex flex-row space-x-12 text-slate-800'> 
 
                 <div className=''>

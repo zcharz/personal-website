@@ -2,7 +2,8 @@ import Link from 'next/link'
 
 export default function Music () {
     return (
-        <div className='flex flex-row justify-center py-11 bg-slate-100 space-x-10'>
+        <div id='music' 
+        className='flex flex-row justify-center py-11 bg-slate-100 space-x-10 min-h-screen'>
 
             <div className='flex flex-col space-y-2 text-slate-800 w-96'>
                 <div className='text-4xl font-semibold'>music</div>

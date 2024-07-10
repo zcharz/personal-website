@@ -1,6 +1,6 @@
 export default function Contact () {
     return (
-        <div className='flex justify-center py-11 bg-slate-800 space-x-3'>
+        <div id='contact' className='flex justify-center bg-slate-800 space-x-3 py-36'>
             <div className='flex flex-col text-slate-100'>
                 <div className='text-4xl font-semibold'>contact</div>
             </div>
