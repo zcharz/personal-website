@@ -1,7 +1,7 @@
 export default function Experience () {
     return (
         <div id='experience' 
-        className='flex flex-row justify-center bg-slate-100 space-x-10 min-h-screen'>
+        className='flex flex-row justify-center py-32 bg-slate-100 space-x-10'>
             <div className='flex flex-col'>
                 <div>experience</div>
 

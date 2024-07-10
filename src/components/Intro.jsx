@@ -1,10 +1,8 @@
-import Position from './sub-components/Position';
 import ButtonLinks from './sub-components/ButtonLinks';
 
+import Image from 'next/image'
 // import amogus from '../assets/amogus.jpg'
 import portrait from '../assets/pfp-cropped.jpg'
-import Image from 'next/image'
-
 
 
 export default function Intro () {
@@ -13,15 +11,14 @@ export default function Intro () {
         className='flex justify-center items-center animated_background'>
             <div className='flex flex-row space-x-12 text-slate-800'> 
 
-                <div className=''>
+                <div className='w-96'>
                     <Image
                         src = {portrait} alt = 'pfp'
-                         className='rounded-full border-2 border-slate-100 pointer-events-none w-96'
+                        className='rounded-full border-2 border-slate-100 pointer-events-none'
                     />
                 </div>
 
-                <div className='h-96 bg-slate-800 w-2'></div>
-                
+                <div className='h-96 bg-slate-800 w-2'></div>   
                 
                 <div className='flex flex-col justify-center space-y-3'>
                     <dv className='text-6xl font-semibold'>
@@ -31,7 +28,6 @@ export default function Intro () {
                     <div className='text-2xl'>
                         software engineer | student | musician
                     </div>
-                    {/* <Position/> */}
                     
                     <ButtonLinks/>
                 </div>
