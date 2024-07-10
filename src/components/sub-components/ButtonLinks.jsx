@@ -21,7 +21,7 @@ export default function ButtonLinks() {
 				<MdLibraryMusic size={30} className='text-slate-800 hover:text-slate-100 duration-200'/>
 			</Link>
 
-			<Link href='' target="_blank">
+			<Link href='https://drive.google.com/file/d/10FSwgbi-zzxbQ_wF6PdsySRo7Sc8FkNm/view' target="_blank">
 				<IoDocumentText size={30} className='text-slate-800 hover:text-slate-100 duration-200'/>
 			</Link>
 
