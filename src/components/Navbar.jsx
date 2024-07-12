@@ -14,11 +14,11 @@ export default function Navbar () {
             <div className='bg-slate-800 w-2'></div>
 
             <div className='flex flex-col text-xl space-y-2 text-slate-800'>
-                <button onClick={() => scrollTo('charz')} className='text-left hover:text-slate-100 duration-200'>charz</button>
-                <button onClick={() => scrollTo('experience')} className='text-left hover:text-slate-100 duration-200'>experience</button>
-                <button onClick={() => scrollTo('projects')} className='text-left hover:text-slate-100 duration-200'>projects</button>
-                <button onClick={() => scrollTo('music')} className='text-left hover:text-slate-100 duration-200'>music</button>
-                <button onClick={() => scrollTo('contact')} className='text-left hover:text-slate-100 duration-200'>contact</button>
+                <button onClick={() => scrollTo('charz')} className='text-left hover:text-slate-50 duration-200'>charz</button>
+                <button onClick={() => scrollTo('experience')} className='text-left hover:text-slate-50 duration-200'>experience</button>
+                <button onClick={() => scrollTo('projects')} className='text-left hover:text-slate-50 duration-200'>projects</button>
+                <button onClick={() => scrollTo('music')} className='text-left hover:text-slate-50 duration-200'>music</button>
+                <button onClick={() => scrollTo('contact')} className='text-left hover:text-slate-50 duration-200'>contact</button>
             </div>
         </div>
     );

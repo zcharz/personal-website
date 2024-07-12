@@ -1,4 +1,4 @@
-import ButtonLinks from './sub-components/ButtonLinks';
+import {ButtonLinks} from './sub-components/ButtonLinks';
 
 import Image from 'next/image'
 // import amogus from '../assets/amogus.jpg'

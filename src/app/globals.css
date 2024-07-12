@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 
+::-webkit-scrollbar {
+    width: 0rem;
+}
+/* 
+::-webkit-scrollbar-track {
+    background: #cbd5e1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+} */
+
 .animated_background {
     min-height: 100vh;
     color: #333;
@@ -17,3 +29,15 @@
 50% {background-position: right}
 100% {background-position: left}
 }
+
+
+/* styling ref
+
+slate-800
+slate-50
+
+teal-500
+rose-400
+
+section padding py-24
+*/
