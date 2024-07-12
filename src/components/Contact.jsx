@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import {ContactLinks} from './sub-components/ButtonLinks';
+import {ContactLinks} from './ButtonLinks';
 
 
 export default function Contact () {

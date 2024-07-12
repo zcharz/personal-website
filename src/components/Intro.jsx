@@ -1,4 +1,4 @@
-import {ButtonLinks} from './sub-components/ButtonLinks';
+import {ButtonLinks} from './ButtonLinks';
 
 import Image from 'next/image'
 import portrait from '../assets/pfp-cropped.jpg'
@@ -27,7 +27,7 @@ export default function Intro () {
                     <div className='text-2xl'>
                         software engineer | student | musician
                     </div>
-                    
+
                     <ButtonLinks/>
                 </div>
                 

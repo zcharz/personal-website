@@ -34,7 +34,7 @@ export function ButtonLinks() {
 
 export function ContactLinks() {
 	return (
-		<div className='flex justify-start space-x-2 text-slate-100'>
+		<div className='flex justify-start space-x-2 text-slate-50'>
 			<Link href='https://github.com/zcharz' target="_blank">
 				<FaGithub size={30} className='hover:text-rose-400 duration-200'/>
 			</Link>
