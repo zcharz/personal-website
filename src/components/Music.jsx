@@ -8,7 +8,7 @@ export default function Music () {
                 <div className='flex flex-col space-y-3 text-slate-800 text-right w-3/6'>
 
                     <div className='flex flex-row justify-end items-center space-x-3'>
-                        <div className='text-4xl font-semibold'>music</div>
+                        <div className='text-3xl font-semibold'>music</div>
                         <div className='h-10 bg-slate-800 w-2'></div>   
                     </div>
 

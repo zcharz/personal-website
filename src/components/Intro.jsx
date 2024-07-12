@@ -1,7 +1,6 @@
 import {ButtonLinks} from './sub-components/ButtonLinks';
 
 import Image from 'next/image'
-// import amogus from '../assets/amogus.jpg'
 import portrait from '../assets/pfp-cropped.jpg'
 
 
@@ -14,7 +13,7 @@ export default function Intro () {
                 <div className='w-96'>
                     <Image
                         src = {portrait} alt = 'pfp'
-                        className='rounded-full border-2 border-slate-100 pointer-events-none'
+                        className='rounded-full border-2 border-slate-50 pointer-events-none'
                     />
                 </div>
 

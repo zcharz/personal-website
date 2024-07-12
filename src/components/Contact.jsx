@@ -10,7 +10,7 @@ export default function Contact () {
             <div className='flex flex-col w-3/6 space-y-3'>
                 <div className='flex flex-row items-center space-x-3'>
                     <div className='h-10 bg-slate-100 w-2'></div>   
-                    <div className='text-4xl font-semibold'>contact</div>
+                    <div className='text-3xl font-semibold'>contact</div>
                 </div>
                 
                 <div>
