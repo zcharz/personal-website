@@ -3,6 +3,9 @@
 import { useState } from "react";
 import { ExperienceItems } from "./ExperienceItems";
 
+import Image from 'next/image'
+import amogus from '../assets/amogus.jpg'
+
 
 export default function Experience () {
     const [exp, setExp] = useState(0);
@@ -22,20 +25,21 @@ export default function Experience () {
                     <div className='flex flex-col space-y-5 w-2/6'>
                         {ExperienceItems.map((item, index) => (              
                             <div onClick={() => setExp(index)} key={index}
-                            className={`className='flex items-center justify-center p-4 cursor-pointer rounded-md ' 
-                            ${index === exp ? 'bg-slate-200 text-slate-800' : 'bg-slate-800'}`}>
-                                {item.org}
+                            className={`className=' flex flex-row space-x-3 items-center justify-start p-4 cursor-pointer rounded-md hover:drop-shadow-lg duration-200 ' 
+                            ${index === exp ? 'bg-slate-200 text-slate-800 drop-shadow-lg' : 'bg-slate-800'}`}>
+                                <Image src={amogus} width={40} height={40} />
+                                <div>{item.org}</div>
                             </div>                
                         ))}
                     </div>
 
-                    <div className='bg-slate-800 w-4/6 p-4 rounded-md'>
-                        <div>{curr.role}</div>
-                        <div>{curr.date}</div>
+                    <div className='bg-slate-800 w-4/6 p-4 rounded-md space-y-5'>
+                        <div className='font-bold text-xl'>{curr.role}</div>
+                        <div className='italic'>{curr.date}</div>
 
-                        <div>
+                        <div className='flex flex-col space-y-2'>
                             {curr.desc.map((item) => {
-                                <li>{item}</li>
+                                return <div>{item}</div>;
                             })}
                         </div>
                     </div>    

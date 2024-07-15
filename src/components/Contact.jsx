@@ -22,15 +22,15 @@ export default function Contact () {
                         If you know of any open positions, if you have any questions, 
                         or if you just want to say hi, feel free to reach out on&nbsp;
 
-                        <Link className='text-teal-500 hover:text-rose-400 duration-300'
+                        <Link className='text-teal-500 hover:text-rose-500 duration-200'
                         href='https://www.linkedin.com/in/zhao-charlie/' target="_blank">
                             LinkedIn
                         </Link>
 
                         &nbsp;or email me at&nbsp;
 
-                        <Link className='text-teal-500 hover:text-rose-400 duration-300'
-                        href='mailto:hellozhaocharlie@gmail.com' target="_blank" >
+                        <Link className='text-teal-600 hover:text-rose-500 duration-200'
+                        href='mailto:hellozhaocharli@gmail.com' target="_blank" >
                             hellozhaocharlie@gmail.com
                         </Link>
                         .
@@ -39,21 +39,21 @@ export default function Contact () {
                     <div>
                         Also check out my&nbsp;
 
-                        <Link className='text-teal-500 hover:text-rose-400 duration-300'
+                        <Link className='text-teal-600 hover:text-rose-500 duration-200'
                         href='https://github.com/zcharz' target="_blank">
                             Github
                         </Link>
 
                         ,&nbsp;
 
-                        <Link className='text-teal-500 hover:text-rose-400 duration-300'
+                        <Link className='text-teal-600 hover:text-rose-400 duration-200'
                         href='https://www.youtube.com/@czmusic_' target="_blank">
                             YouTube
                         </Link>
 
                         , and&nbsp;
 
-                        <Link className='text-teal-500 hover:text-rose-400 duration-300'
+                        <Link className='text-teal-600 hover:text-rose-500 duration-300'
                         href='https://drive.google.com/file/d/1KroZl-79kF2Hltba0qhrsHdcOWxnzYmO/view' target="_blank">
                             Resume
                         </Link>

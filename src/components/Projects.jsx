@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Projects () {
     return (
         <div id='projects' 
-        className='flex justify-center py-24 bg-slate-50 space-x-10'>
+        className='flex justify-center py-24 bg-slate-100 space-x-10'>
             <div className='flex flex-col space-y-3 w-3/6'>
 
                 <div className='flex flex-row justify-start items-center text-slate-800 space-x-3'>
