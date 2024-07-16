@@ -16,7 +16,7 @@ export default function Home() {
     <main>
       <Navbar/>
       <Intro/>
-      {/* <About/> */}
+      <About/>
       <Experience/>
       <Projects/>
       <Music/>

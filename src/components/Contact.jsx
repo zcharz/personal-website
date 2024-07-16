@@ -1,19 +1,19 @@
 import Link from 'next/link'
-import {ContactLinks} from './ButtonLinks';
+import ButtonLinks from './ButtonLinks';
 
 
 export default function Contact () {
     return (
         <div id='contact'
-        className='flex justify-center bg-slate-800 py-24'>
+        className='flex justify-center bg-slate-800 py-20'>
             
-            <div className='flex flex-col w-3/6 space-y-5'>
+            <div className='flex flex-col w-3/6 space-y-5 drop-shadow-lg'>
                 <div className='flex flex-row items-center space-x-3 text-slate-50'>
                     <div className='h-10 bg-slate-100 w-2'></div>   
                     <div className='text-3xl font-semibold'>contact</div>
                 </div>
 
-                <div className='flex flex-col space-y-2 bg-slate-50 text-slate-800 p-4 rounded-md'>
+                <div className='flex flex-col space-y-2 bg-slate-700 text-slate-100 p-4 rounded-md'>
                     <div>
                         I'm currently looking for full-time Software Engineering or Machine Learning opportunities! 
                     </div>
@@ -65,7 +65,7 @@ export default function Contact () {
                 
                 
 
-                <ContactLinks/>
+                <ButtonLinks/>
             </div>
         </div>
     );
