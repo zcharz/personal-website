@@ -24,7 +24,7 @@ export default function Intro () {
                         charlie zhao
                     </dv>
 
-                    <div className='text-2xl'>
+                    <div className='text-2xl pb-1'>
                         software engineer | student | musician
                     </div>
 

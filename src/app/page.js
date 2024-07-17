@@ -1,10 +1,10 @@
-import Navbar from "@/components/Navbar";
+import Navbar from '@/components/Navbar';
 import Intro from '@/components/Intro'
-import About from "@/components/About";
-import Projects from "@/components/Projects";
-import Experience from "@/components/Experience";
-import Music from "@/components/Music";
-import Contact from "@/components/Contact";
+import About from '@/components/About';
+import Projects from '@/components/Projects';
+import Experience from '@/components/Experience';
+import Music from '@/components/Music';
+import Contact from '@/components/Contact';
 
 
 export const metadata = {
@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main>
+    <main className='bg-slate-800'>
       <Navbar/>
       <Intro/>
       <About/>
