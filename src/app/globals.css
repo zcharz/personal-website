@@ -6,14 +6,6 @@
 ::-webkit-scrollbar {
     width: 0rem;
 }
-/* 
-::-webkit-scrollbar-track {
-    background: #cbd5e1;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #1e293b;
-} */
 
 .animated_background {
     min-height: 100vh;
@@ -29,18 +21,6 @@
 100% {background-position: left}
 }
 
-iframe:focus {
-    outline: none;
-    box-shadow: none;
+::selection {
+color: #fb7185;
 }
-
-/* styling ref
-
-slate-800
-slate-50
-
-teal-500
-rose-400
-
-section padding py-24
-*/

@@ -9,7 +9,7 @@ import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
-    <main className='bg-slate-800'>
+    <main>
       <Navbar/>
       <Intro/>
       <About/>

@@ -6,6 +6,11 @@ import { ExperienceItems } from "./ExperienceItems";
 import Image from 'next/image'
 import amogus from '../assets/amogus.jpg'
 
+import aiclub from '../assets/aiclub.jpg'
+import cubesat from '../assets/cubesat.jpg'
+import donaldbren from '../assets/donaldbren.jpg'
+import itsirvine from '../assets/itsirvine.jpg'
+
 
 export default function Experience () {
     const [exp, setExp] = useState(0);
@@ -27,7 +32,8 @@ export default function Experience () {
                             <div onClick={() => setExp(index)} key={index}
                             className={`className=' flex flex-row space-x-3 items-center justify-start p-5 cursor-pointer rounded-md hover:shadow-sm hover:shadow-emerald-400 duration-100 ' 
                             ${index === exp ? 'bg-slate-100 text-slate-800 shadow-sm shadow-emerald-400' : 'bg-slate-800'}`}>
-                                <Image src={amogus} width={40} height={40} />
+                                <Image src={aiclub} width={40} height={40} 
+                                className='rounded-lg'/>
                                 <div>{item.org}</div>
                             </div>                
                         ))}
@@ -39,7 +45,7 @@ export default function Experience () {
 
                         <div className='flex flex-col space-y-3'>
                             {curr.desc.map((item) => {
-                                return <div className='flex flex-row space-x-3'>
+                                return <div className='flex flex-row space-x-3' key={item}>
                                     <div className='text-emerald-400'>○</div>
                                     <div>{item}</div>
                                 </div>;

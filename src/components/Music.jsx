@@ -16,9 +16,9 @@ export default function Music () {
                     <iframe width='560' height='315' 
                     className='bg-slate-800 w-4/6 flex justify-center rounded-md'
                     src='https://www.youtube.com/embed/exlHo5IazSs?si=MzTY5Q7yZwJYNGAP&amp;controls=0'
-                    frameborder='0' 
+                    frameBorder='0' 
                     allow='clipboard-write; encrypted-media; web-share' 
-                    referrerpolicy='strict-origin-when-cross-origin' allowfullscreen/>    
+                    referrerPolicy='strict-origin-when-cross-origin' allowFullScreen/>    
 
 
                     <div className='flex flex-col space-y-3 bg-slate-800 text-slate-50 p-5 rounded-md w-2/6'>
