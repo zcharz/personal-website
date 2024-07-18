@@ -7,10 +7,6 @@ import Music from '@/components/Music';
 import Contact from '@/components/Contact';
 
 
-export const metadata = {
-  title: 'Charlie Zhao',
-}
-
 export default function Home() {
   return (
     <main className='bg-slate-800'>

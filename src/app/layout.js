@@ -8,8 +8,8 @@ const raleway = Raleway({
 
 
 export const metadata = {
-  title: "Charlie Zhao's Personal Website",
-  description: "Personal portfolio website built from scratch"
+  title: "charlie zhao",
+  description: "website portfolio"
 };
 
 export default function RootLayout({ children }) {
