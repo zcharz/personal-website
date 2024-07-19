@@ -9,7 +9,7 @@ const raleway = Raleway({
 
 export const metadata = {
   title: 'charlie zhao',
-  description: "charlie's personal website"
+  description: "personal website"
 };
 
 

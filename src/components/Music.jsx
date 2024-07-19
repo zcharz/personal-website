@@ -14,7 +14,7 @@ export default function Music () {
 
                 <div className='flex flex-row space-x-5'>
                     <iframe width='560' height='315' 
-                    className='bg-slate-800 w-4/6 flex justify-center rounded-md'
+                    className='bg-slate-800 w-4/6 flex justify-center rounded-md hover:shadow-sm hover:shadow-emerald-400 duration-100'
                     src='https://www.youtube.com/embed/exlHo5IazSs?si=MzTY5Q7yZwJYNGAP&amp;controls=0'
                     frameBorder='0' 
                     allow='clipboard-write; encrypted-media; web-share' 
