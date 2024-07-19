@@ -47,7 +47,7 @@ export default function Experience () {
                         ))}
                     </div>
 
-                    <div className='bg-slate-800 w-4/6 p-5 rounded-md space-y-3'>
+                    <div className='bg-slate-800 w-4/6 p-5 rounded-md space-y-3 hover:shadow-sm hover:shadow-rose-400 duration-100'>
                         <div className='font-bold text-xl text-rose-400'>{curr.role}</div>
                         <div className='italic'>{curr.date}</div>
 

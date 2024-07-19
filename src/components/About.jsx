@@ -11,28 +11,13 @@ export default function About () {
                     <div className='text-3xl font-semibold'>about</div>
                 </div>
 
-                <div className='flex flex-col space-y-3 bg-slate-700 text-slate-100 p-5 rounded-md'>
+                <div className='flex flex-col space-y-3 bg-slate-700 text-slate-100 p-5 rounded-md hover:shadow-sm hover:shadow-rose-400 duration-100'>
                     <div>
                         Hey! I'm Charlie Zhao, fourth year Computer Science student at the University of California, Irvine
                     </div>
 
                     <div>
                         Experienced with Full-Stack Development and Machine Learning, I'm current looking for full-time opportunities!
-                    </div>
-
-                    <div>
-                        If you know of any open positions, if you have any questions, 
-                        or if you just want to say hi, feel free to reach out on&nbsp;
-
-                        <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
-                        href='https://www.linkedin.com/in/zhao-charlie/' target="_blank">
-                            LinkedIn
-                        </Link>
-                        &nbsp;or email me at&nbsp;
-                        <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
-                        href='mailto:hellozhaocharli@gmail.com' target="_blank" >
-                            hellozhaocharlie@gmail.com
-                        </Link>
                     </div>
 
                     <div>
@@ -48,10 +33,11 @@ export default function About () {
                     </div>
 
                     <div>
-                        I also make music! You can find my music on my&nbsp;
+                        I also make music – you can find my music on my&nbsp;
                         <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
                         href='https://www.youtube.com/@czmusic_' target="_blank">
                             YouTube</Link>
+                        , take a listen!
                     </div>
                 </div>
             </div>

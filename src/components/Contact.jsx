@@ -13,7 +13,7 @@ export default function Contact () {
                     <div className='text-3xl font-semibold'>contact</div>
                 </div>
 
-                <div className='flex flex-col space-y-3 bg-slate-700 text-slate-100 p-5 rounded-md'>
+                <div className='flex flex-col space-y-3 bg-slate-700 text-slate-100 p-5 rounded-md hover:shadow-sm hover:shadow-rose-400 duration-100'>
                     <div>
                         I'm looking for full-time Software Engineering or Machine Learning opportunities!
                     </div>
