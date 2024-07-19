@@ -20,12 +20,11 @@ export default function Projects () {
                     <div className='text-3xl font-semibold'>projects</div>  
                 </div>
 
-                <div className='flex flex-wrap justify-start text-slate-100 space-y-5'>
-                    {ProjectItems.map((item) => (      
+                <div className='flex flex-wrap text-slate-100'>
+                    {ProjectItems.map((item) => (     
                         <div key={item.name}  
-                        className='flex flex-col justify-start items-start p-5 bg-slate-700 space-y-3 rounded-md hover:shadow-sm hover:shadow-rose-400 duration-100'>
-                            {/* <Image src={imgMap[item.img]} width={300} height={200} 
-                            className='rounded-lg'/> */}
+                        className='flex flex-col justify-start items-start p-5 mr-5 mb-5 bg-slate-700 space-y-3 rounded-md hover:shadow-sm hover:shadow-rose-400 duration-100'>
+                            {/* bandaid fix using mr-5 and mb-5 */}
                             <div className='flex flex-row space-x-2 items-center'>
                                 <div className='font-bold text-xl text-rose-400'>{item.name}</div>  
                                 <Link href={item.link} target='_blank'>
@@ -33,23 +32,17 @@ export default function Projects () {
                                 </Link>
                             </div>
                             
-                            <div className=''>{item.desc}</div>
+                            <div className=''>{item.desc}</div> 
 
                             <div className='flex flex-row space-x-2'>
                                 <div className='text-emerald-400'>○</div>
-                                <div>{separateElements(item.skills)}</div>
+                                <div>{item.skills.join(' | ')}</div>
                             </div>
-                        </div>                                        
+                        </div>                               
                     ))}
                 </div>
                 
             </div>
         </div>
     );
-}
-
-function separateElements(arr) {
-    if (arr.length <= 1) return arr.join();
-    const elements = arr.slice(0, -1);
-    return elements.join(" | ");
 }
