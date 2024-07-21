@@ -4,6 +4,17 @@ This is a personal portfolio website made by Charlie Zhao completely from scratc
 
 Check out the website at [charz.dev](https://charz.dev)!
 
+## TODOs
+
+* Project section layout and interactivity
+    * Replace bandaid fix margin styling
+* Project screenshots
+    * How to fit into layout/design
+* Tailwind custom classes using @apply directive for reused code in animations, sections, etc
+* New headshot photo
+* Contact form
+* Adaptive design for mobile/smaller screen sizes
+
 ## Getting Started
 
 Installing dependencies: 
