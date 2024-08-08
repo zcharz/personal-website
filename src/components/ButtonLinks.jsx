@@ -17,7 +17,7 @@ export default function ButtonLinks() {
 				<FaLinkedin size={30} className='hover:text-emerald-400 duration-200'/>
 			</Link>
 
-			<Link href='https://www.youtube.com/@czmusic_' target="_blank">
+			<Link href='https://www.youtube.com/@just_cz' target="_blank">
 				<MdLibraryMusic size={30} className='hover:text-emerald-400 duration-200'/>
 			</Link>
 

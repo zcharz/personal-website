@@ -44,7 +44,7 @@ export default function Contact () {
                             Resume</Link>
                             , and&nbsp;
                         <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
-                        href='https://www.youtube.com/@czmusic_' target="_blank">
+                        href='https://www.youtube.com/@just_cz' target="_blank">
                             YouTube</Link>
                     </div>
                 </div>

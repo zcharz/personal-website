@@ -24,7 +24,7 @@ export default function Music () {
                         <div>
                             In my free time, I enjoy producing music under the alias&nbsp;
                             <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
-                            href='https://www.youtube.com/@czmusic_' target='_blank'>czm.</Link>
+                            href='https://www.youtube.com/@just_cz' target='_blank'>czm.</Link>
                         </div>
                         
                         <div>
@@ -36,7 +36,7 @@ export default function Music () {
                         <div>
                             Check out my&nbsp;
                             <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
-                            href='https://www.youtube.com/@czmusic_' target='_blank'>Youtube</Link>
+                            href='https://www.youtube.com/@just_cz' target='_blank'>Youtube</Link>
                             &nbsp;for more of my music, coming soon!
                         </div>
                     </div>
