@@ -1,10 +1,10 @@
 ## Personal Website
 
-This is a personal portfolio website made by Charlie Zhao completely from scratch, utilizing [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/). 
+A personal portfolio website made completely from scratch!
 
-Check out the website at [charz.dev](https://charz.dev)!
+Check out the website at [charz.dev](https://charz.dev)
 
-## TODOs
+## Future Work
 
 * Project section layout and interactivity
     * Replace bandaid fix margin styling
@@ -15,7 +15,7 @@ Check out the website at [charz.dev](https://charz.dev)!
 * Contact form
 * Adaptive design for mobile/smaller screen sizes
 
-## Getting Started
+## Local Setup
 
 Installing dependencies: 
 ```bash
