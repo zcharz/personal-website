@@ -1,8 +1,20 @@
 export const ExperienceItems = [
+
+    // {
+    //     org: 'ICS Student Council',
+    //     role: 'Full-stack Developer',
+    //     date: 'Mar 2025 - Present',
+    //     img: 'icssc',
+    //     desc: [
+    //         'Generated and tuned machine learning models for vehicle trajectory data smoothing, with architectures including Denoising Autoencoder (Neural Network), Random Forest, and Gradient Boosting, using PyTorch',
+    //         'Transformed 500,000+ 1-D vehicle positional and trajectory data points into 2-D training, testing, and validation arrays, using Pandas and NumPy to efficiently parse and organize data',
+    //         'Analyzed model data smoothing artifacts, evaluated performance against mathematical smoothing methods'
+    //     ]
+    // }, 
     
     {
-        org: 'Institute of Transportation Studies, UC Irvine',
-        role: 'Undergraduate Researcher (AI/ML)',
+        org: 'Institute of Transportation Studies, UCI',
+        role: 'Undergraduate Researcher',
         date: 'Oct 2023 - Jun 2024',
         img: 'itsirvine',
         desc: [
@@ -13,10 +25,10 @@ export const ExperienceItems = [
     }, 
     
     {
-        org: 'Donald Bren School of Information and Computer Sciences, UC Irvine',
-        role: 'Undergraduate Researcher (Software)',
+        org: 'Unipal AI',
+        role: 'Software Developer',
         date: 'Jan 2024 - Jun 2024',
-        img: 'donaldbren',
+        img: 'amogus',
         desc: [
             'Collaborated with a team to develop a full stack web AI course counselor for assisting college students',
             'Leveraged LangChain and OpenAI API to create an Large Language Model (LLM) agent capable of generating personalized course recommendations based on input prompts, user transcripts, and school course data',
@@ -25,7 +37,7 @@ export const ExperienceItems = [
     }, 
 
     {
-        org: 'Artificial Intelligence Club at UCI',
+        org: 'Artificial Intelligence Club',
         role: 'Board Member',
         date: 'Oct 2023 - Jun 2024',
         img: 'aiclub',

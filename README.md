@@ -13,7 +13,10 @@ Check out the website at [charz.dev](https://charz.dev)
 * Tailwind custom classes using @apply directive for reused code in animations, sections, etc
 * New headshot photo
 * Contact form
-* Adaptive design for mobile/smaller screen sizes
+* Responsive design for mobile/smaller screen sizes
+* Consistent hover color
+* Update experience text, add peterportal
+* Update about section text
 
 ## Local Setup
 

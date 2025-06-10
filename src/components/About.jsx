@@ -7,17 +7,17 @@ export default function About () {
             
             <div className='flex flex-col w-3/6 space-y-4 drop-shadow-lg'>
                 <div className='flex flex-row items-center space-x-3 text-slate-100'>
-                    <div className='h-10 bg-slate-100 w-2'></div>   
-                    <div className='text-3xl font-semibold'>about</div>
+                    {/* <div className='h-10 bg-slate-100 w-2'></div>    */}
+                    <div className='text-3xl font-semibold'>about_</div>
                 </div>
 
                 <div className='flex flex-col space-y-3 bg-slate-700 text-slate-100 p-5 rounded-md hover:shadow-sm hover:shadow-rose-400 duration-100'>
                     <div>
-                        Hey! I'm Charlie Zhao, fourth year Computer Science student at the University of California, Irvine
+                        Hey! I'm Charlie Zhao, recent Computer Science graduate from the University of California, Irvine
                     </div>
 
                     <div>
-                        Experienced with Full-Stack Development and Machine Learning, I'm current looking for full-time opportunities!
+                        Experienced with Full-Stack Development and Machine Learning, I'm currently looking for full-time opportunities!
                     </div>
 
                     <div>

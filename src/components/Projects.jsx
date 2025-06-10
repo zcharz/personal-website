@@ -16,8 +16,8 @@ export default function Projects () {
             <div className='flex flex-col space-y-4 w-3/6 drop-shadow-lg'>
 
                 <div className='flex flex-row justify-start items-center text-slate-100 space-x-3'>
-                    <div className='h-10 bg-slate-100 w-2'></div> 
-                    <div className='text-3xl font-semibold'>projects</div>  
+                    {/* <div className='h-10 bg-slate-100 w-2'></div>  */}
+                    <div className='text-3xl font-semibold'>projects_</div>  
                 </div>
 
                 <div className='flex flex-wrap text-slate-100'>

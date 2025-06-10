@@ -16,7 +16,8 @@ const imgMap = {
     'aiclub': aiclub,
     'cubesat': cubesat,
     'donaldbren': donaldbren,
-    'itsirvine': itsirvine
+    'itsirvine': itsirvine,
+    'amogus': amogus
 }
 
 
@@ -30,8 +31,8 @@ export default function Experience () {
             <div className='flex flex-col space-y-4 w-3/6 drop-shadow-lg'>
 
                 <div className='flex flex-row justify-start items-center text-slate-100 space-x-3'>
-                    <div className='h-10 bg-slate-100 w-2'></div>
-                    <div className='text-3xl font-semibold'>experience</div>  
+                    {/* <div className='h-10 bg-slate-100 w-2'></div> */}
+                    <div className='text-3xl font-semibold'>experience_</div>  
                 </div>
 
                 <div className='flex flex-row space-x-5 text-slate-100'>
@@ -40,14 +41,14 @@ export default function Experience () {
                             <div onClick={() => setExp(index)} key={index}
                             className={`className=' flex flex-row space-x-3 items-center justify-start p-5 cursor-pointer rounded-md hover:shadow-sm hover:shadow-emerald-400 duration-100 ' 
                             ${index === exp ? 'bg-slate-100 text-slate-800 shadow-sm shadow-emerald-400' : 'bg-slate-800'}`}>
-                                <Image src={imgMap[item.img]} width={40} height={40} 
+                                <Image src={imgMap[item.img]} alt={item.role} width={40} height={40} 
                                 className='rounded-lg'/>
                                 <div>{item.org}</div>
                             </div>                
                         ))}
                     </div>
 
-                    <div className='bg-slate-800 w-4/6 p-5 rounded-md space-y-3 hover:shadow-sm hover:shadow-rose-400 duration-100'>
+                    <div className='bg-slate-800 w-4/6 p-5 rounded-md space-y-3 hover:shadow-sm hover:shadow-emerald-400 duration-100'>
                         <div className='font-bold text-xl text-rose-400'>{curr.role}</div>
                         <div className='italic'>{curr.date}</div>
 

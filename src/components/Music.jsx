@@ -7,8 +7,8 @@ export default function Music () {
             <div className='flex flex-col space-y-4 w-3/6 drop-shadow-lg'>
 
                 <div className='flex flex-row justify-start items-center space-x-3 text-slate-100'>
-                    <div className='h-10 bg-slate-100 w-2'></div> 
-                    <div className='text-3xl font-semibold'>music</div>  
+                    {/* <div className='h-10 bg-slate-100 w-2'></div>  */}
+                    <div className='text-3xl font-semibold'>music_</div>  
                 </div>
 
 

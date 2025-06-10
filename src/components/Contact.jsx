@@ -9,18 +9,18 @@ export default function Contact () {
             
             <div className='flex flex-col w-3/6 space-y-4 drop-shadow-lg'>
                 <div className='flex flex-row items-center space-x-3 text-slate-50'>
-                    <div className='h-10 bg-slate-100 w-2'></div>   
-                    <div className='text-3xl font-semibold'>contact</div>
+                    {/* <div className='h-10 bg-slate-100 w-2'></div>    */}
+                    <div className='text-3xl font-semibold'>contact_</div>
                 </div>
 
                 <div className='flex flex-col space-y-3 bg-slate-700 text-slate-100 p-5 rounded-md hover:shadow-sm hover:shadow-rose-400 duration-100'>
                     <div>
-                        I'm looking for full-time Software Engineering or Machine Learning opportunities!
+                        I'm looking for full-time Software Engineering opportunities!
                     </div>
                     
                     <div>
-                        If you know of any open positions, if you have any questions, 
-                        or if you just want to say hi, feel free to reach out on&nbsp;
+                        If you know of any open positions, have any questions, 
+                        or just want to say hi, feel free to reach out on&nbsp;
 
                         <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
                         href='https://www.linkedin.com/in/zhao-charlie/' target="_blank">
@@ -47,9 +47,9 @@ export default function Contact () {
                         href='https://www.youtube.com/@just_cz' target="_blank">
                             YouTube</Link>
                     </div>
-                </div>
 
-                <ButtonLinks/>
+                    <ButtonLinks/>
+                </div>
             </div>
         </div>
     );

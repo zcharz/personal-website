@@ -21,11 +21,11 @@ export default function Intro () {
                 
                 <div className='flex flex-col justify-center space-y-3'>
                     <dv className='text-6xl font-semibold'>
-                        charlie zhao
+                        charlie zhao_
                     </dv>
 
                     <div className='text-2xl pb-1'>
-                        software engineer | student | musician
+                        software engineer | musician
                     </div>
 
                     <ButtonLinks/>
