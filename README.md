@@ -6,11 +6,12 @@ Check out the website at [charz.dev](https://charz.dev)
 
 ## WIP
 
-* Project screenshots and interactivity
-* Tailwind custom classes using @apply directive for reused code in animations, sections, etc
-* New headshot photo
-* Responsive design for mobile/smaller screen sizes
-* Consistent hover color
+* project section screenshots and interactivity
+* custom tailwind classes using @apply directive for reused code in animations, sections, etc
+* update headshot photo
+* responsive design for mobile/smaller screen sizes
+* possible redesign of backgrounds (not full color, kinda boring ngl)
+* expand text in about me
 
 ## Local Setup
 
