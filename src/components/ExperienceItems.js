@@ -1,51 +1,48 @@
 export const ExperienceItems = [
 
-    // {
-    //     org: 'ICS Student Council',
-    //     role: 'Full-stack Developer',
-    //     date: 'Mar 2025 - Present',
-    //     img: 'icssc',
-    //     desc: [
-    //         'Generated and tuned machine learning models for vehicle trajectory data smoothing, with architectures including Denoising Autoencoder (Neural Network), Random Forest, and Gradient Boosting, using PyTorch',
-    //         'Transformed 500,000+ 1-D vehicle positional and trajectory data points into 2-D training, testing, and validation arrays, using Pandas and NumPy to efficiently parse and organize data',
-    //         'Analyzed model data smoothing artifacts, evaluated performance against mathematical smoothing methods'
-    //     ]
-    // }, 
+    {
+        org: 'ICS Student Council',
+        role: 'Full-stack Developer',
+        date: 'Mar 2025 - Present',
+        img: 'icssc',
+        desc: [
+            'Collaborated with a team on the development of PeterPortal (peterportal.org), an open-source course discovery and academic roadmap with 5000+ monthly visits',
+            'Implemented 3 major features: new transfer credit system, application redesign for merger with sister application, and variable course units',
+            'Tech stack: React, TypeScript, Redux, SCSS, Express.js, tRPC, PostgreSQL, Drizzle ORM, Github Actions'
+        ]
+    }, 
+
+    {
+        org: 'Unipal AI',
+        role: 'Software Developer',
+        date: 'Jan 2024 - May 2024',
+        img: 'blank',
+        desc: [
+            'Engineered a LLM chatbot leveraging OpenAI API and prompt engineering capable of generating personalized recommendations for university students by analyzing user input, transcripts, and school data',
+            'Tech stack: React, Flask, LangChain, Vercel, AWS, NGINX, MongoDB Atlas'
+        ]
+    }, 
     
     {
         org: 'Institute of Transportation Studies, UCI',
         role: 'Undergraduate Researcher',
-        date: 'Oct 2023 - Jun 2024',
+        date: 'Oct 2023 - Aug 2024',
         img: 'itsirvine',
         desc: [
-            'Generated and tuned machine learning models for vehicle trajectory data smoothing, with architectures including Denoising Autoencoder (Neural Network), Random Forest, and Gradient Boosting, using PyTorch',
-            'Transformed 500,000+ 1-D vehicle positional and trajectory data points into 2-D training, testing, and validation arrays, using Pandas and NumPy to efficiently parse and organize data',
-            'Analyzed model data smoothing artifacts, evaluated performance against mathematical smoothing methods'
+            'Automated the transformation of 12,000,000+ vehicle trajectory data by scripting a robust data partition and transformation pipeline utilizing Python, Pandas, and file libraries',
+            'Validated data transformation accuracy by implementing comprehensive unit tests at each processing stage',
+            'Developed machine learning data smoothing models using PyTorch and modern architectures including denoising neural networks and gradient boosting, with estimated 80% reduction in noise artifacts'
         ]
     }, 
     
-    {
-        org: 'Unipal AI',
-        role: 'Software Developer',
-        date: 'Jan 2024 - Jun 2024',
-        img: 'amogus',
-        desc: [
-            'Collaborated with a team to develop a full stack web AI course counselor for assisting college students',
-            'Leveraged LangChain and OpenAI API to create an Large Language Model (LLM) agent capable of generating personalized course recommendations based on input prompts, user transcripts, and school course data',
-            'Configured deployment of application, utilizing AWS for the back-end Flask API endpoints, Vercel for the front-end React interface, and MongoDB Atlas for the cloud database'
-        ]
-    }, 
-
     {
         org: 'Artificial Intelligence Club',
         role: 'Board Member',
         date: 'Oct 2023 - Jun 2024',
         img: 'aiclub',
         desc: [
-            'Organized and hosted in-person programming workshops and machine learning competitions',
-            'Delivered weekly announcements and newsletters to 1500+ members regarding events, updates, and opportunities',
-            'Increased overall member participation and event turnout by 300% compared to the previous academic year',
-            'Optimized internal communication and planning process with an estimated planning time reduction of 30% by implementing a document management system and event pipeline'
+            'Achieved 300% increase in member participation and event turnout compared to the previous academic year by organizing workshops and events on artificial intelligence concepts, technologies, and algorithm',
+            'Delivered weekly newsletters to 1500+ students and alumni regarding events, updates, and opportunities',
         ]
     }, 
 

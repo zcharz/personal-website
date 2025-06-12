@@ -20,11 +20,11 @@ export default function Music () {
                     referrerPolicy='strict-origin-when-cross-origin' allowFullScreen/>    
 
 
-                    <div className='flex flex-col space-y-3 bg-slate-800 text-slate-50 p-5 rounded-md w-2/6 hover:shadow-sm hover:shadow-rose-400 duration-100'>
+                    <div className='flex flex-col space-y-3 bg-slate-800 text-slate-50 p-5 rounded-md w-2/6 hover:shadow-sm hover:shadow-emerald-400 duration-100'>
                         <div>
                             In my free time, I enjoy producing music under the alias&nbsp;
                             <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
-                            href='https://www.youtube.com/@just_cz' target='_blank'>czm.</Link>
+                            href='https://www.youtube.com/@just_cz' target='_blank'>cz.</Link>
                         </div>
                         
                         <div>

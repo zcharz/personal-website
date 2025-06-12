@@ -13,7 +13,7 @@ export default function Navbar () {
 
     return (
         <div className='fixed z-50 pl-8 pt-8 flex flex-row font-bold space-x-4'>
-            <div className='bg-slate-50 w-2 drop-shadow-lg'></div>
+            {/* <div className='bg-slate-50 w-2 drop-shadow-lg'></div> */}
 
             <div className='flex flex-col text-xl space-y-2 text-slate-100 drop-shadow-lg'>
                 <button onClick={() => scrollTo('charz')} className='text-left  hover:text-emerald-400 duration-200'>charz</button>

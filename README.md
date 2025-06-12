@@ -4,19 +4,13 @@ A personal portfolio website made completely from scratch!
 
 Check out the website at [charz.dev](https://charz.dev)
 
-## Future Work
+## WIP
 
-* Project section layout and interactivity
-    * Replace bandaid fix margin styling
-* Project screenshots
-    * How to fit into layout/design
+* Project screenshots and interactivity
 * Tailwind custom classes using @apply directive for reused code in animations, sections, etc
 * New headshot photo
-* Contact form
 * Responsive design for mobile/smaller screen sizes
 * Consistent hover color
-* Update experience text, add peterportal
-* Update about section text
 
 ## Local Setup
 
