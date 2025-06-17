@@ -21,15 +21,15 @@ export default function About () {
 
                     <div className='flex flex-col space-y-3 bg-slate-700 text-slate-100 p-5 rounded-md w-3/6 hover:shadow-sm hover:shadow-emerald-400 duration-100'>
                         <div>
-                            Welcome to my website portfolio!
+                            Welcome to my portfolio website!
                         </div>
 
-                        <div>
+                        {/* <div>
                             I'm Charlie, a recent Computer Science graduate from the University of California, Irvine
-                        </div>
+                        </div> */}
 
                         <div>
-                            Experienced with Full-Stack Development and Machine Learning, I'm currently looking for full-time opportunities!
+                            Experienced with Full-Stack Development and Machine Learning, I'm currently looking for relevant full-time Software Engineering opportunities!
                         </div>
 
                         <div>
@@ -41,7 +41,7 @@ export default function About () {
                             <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-300'
                             href='https://drive.google.com/file/d/1KroZl-79kF2Hltba0qhrsHdcOWxnzYmO/view' target="_blank">
                                 Resume</Link>
-                            &nbsp;for more information on my skills, experiences, and projects
+                            &nbsp;for details about my skills, experiences, and projects
                         </div>
 
                         <div>
@@ -49,7 +49,6 @@ export default function About () {
                             <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
                             href='https://www.youtube.com/@just_cz' target="_blank">
                                 YouTube</Link>
-                            , take a listen!
                         </div>
                     </div>
 

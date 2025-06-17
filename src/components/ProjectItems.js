@@ -30,11 +30,11 @@ export const ProjectItems = [
     {
         name: 'Search Engine',
         img: '',
-        link: '',
+        link: 'https://github.com/zcharz/',
         skills: [
             'Python', 'urlib', 'BeautifulSoup', 'NLTK'
         ],
-        desc: 'Indexer and search engine over domain of 50,000+ webpages, with tf-idf, PageRank, and duplicate detection algorithms'
+        desc: 'Indexer and search engine over domain of 50,000+ webpages with tf-idf, PageRank, and duplicate detection algorithms'
     }, 
     
 ];

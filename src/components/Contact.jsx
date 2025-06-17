@@ -15,18 +15,18 @@ export default function Contact () {
 
                 <div className='flex flex-col space-y-3 bg-slate-700 text-slate-100 p-5 rounded-md hover:shadow-sm hover:shadow-emerald-400 duration-100'>
                     <div>
-                        I'm looking for full-time Software Engineering opportunities!
+                        I'm currently looking for full-time Software Engineering opportunities
                     </div>
                     
                     <div>
                         If you know of any open positions, have any questions, 
-                        or just want to say hi, feel free to reach out on&nbsp;
+                        or just want to say hi, please connect on&nbsp;
 
                         <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
                         href='https://www.linkedin.com/in/zhao-charlie/' target="_blank">
                             LinkedIn
                         </Link>
-                        &nbsp;or email me at&nbsp;
+                        &nbsp;or reach out to&nbsp;
                         <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
                         href='mailto:hellozhaocharli@gmail.com' target="_blank" >
                             hellozhaocharlie@gmail.com

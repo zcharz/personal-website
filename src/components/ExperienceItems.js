@@ -24,7 +24,7 @@ export const ExperienceItems = [
     }, 
     
     {
-        org: 'Institute of Transportation Studies, UCI',
+        org: 'Institute of Transportation Studies',
         role: 'Undergraduate Researcher',
         date: 'Oct 2023 - Aug 2024',
         img: 'itsirvine',

@@ -28,16 +28,13 @@ export default function Music () {
                         </div>
                         
                         <div>
-                            Take a listen to my latest lo-fi inspired song titled&nbsp;
+                            Take a listen to my lo-fi inspired song —&nbsp;
                             <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
                             href='https://www.youtube.com/watch?v=exlHo5IazSs' target='_blank'>snooze</Link>
                         </div>
 
                         <div>
-                            Check out my&nbsp;
-                            <Link className='text-emerald-400 font-semibold hover:text-rose-400 duration-200'
-                            href='https://www.youtube.com/@just_cz' target='_blank'>Youtube</Link>
-                            &nbsp;for more of my music, coming soon!
+                            More music and related content coming soon!
                         </div>
                     </div>
 

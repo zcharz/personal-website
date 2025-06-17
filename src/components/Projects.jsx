@@ -20,15 +20,15 @@ export default function Projects () {
                     <div className='text-3xl font-semibold'>projects_</div>  
                 </div>
 
-                <div className='flex flex-wrap text-slate-100'>
+                <div className='flex flex-col text-slate-100'>
                     {ProjectItems.map((item) => (     
                         <div key={item.name}  
-                        className='flex flex-col justify-start items-start p-5 mr-5 mb-5 bg-slate-700 space-y-3 rounded-md hover:shadow-sm hover:shadow-emerald-400 duration-100'>
+                        className='w-full justify-start items-start p-5 mr-5 mb-5 bg-slate-700 space-y-3 rounded-md hover:shadow-sm hover:shadow-emerald-400 duration-100'>
                             {/* bandaid fix using mr-5 and mb-5 */}
                             <div className='flex flex-row space-x-2 items-center'>
                                 <div className='font-bold text-xl text-rose-400'>{item.name}</div>  
                                 <Link href={item.link} target='_blank'>
-                                    <FaGithub size={23} className='hover:text-emerald-400 duration-200'/>
+                                    <FaGithub size={23} className='hover:text-rose-400 duration-200'/>
                                 </Link>
                             </div>
                             
