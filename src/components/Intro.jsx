@@ -1,7 +1,7 @@
 import ButtonLinks from './ButtonLinks';
 
 import Image from 'next/image'
-import portrait from '../assets/pfp-cropped.jpg'
+import portrait from '../assets/pfp.jpg'
 
 
 export default function Intro () {
